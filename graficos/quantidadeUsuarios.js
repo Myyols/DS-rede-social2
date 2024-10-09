@@ -45,4 +45,6 @@ const layout = {
 }
 
 // código omitido
+  
+
 quantidadeUsuarios()
