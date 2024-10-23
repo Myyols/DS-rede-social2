@@ -32,14 +32,28 @@ async function quantidadeUsuarios() {
        }
     },
       xaxis: {
+        title:{
+          texte: 'nome da redes sociais',
+          front: {
+              color: getCSS ('--secondary-color')
+          }
+        }
       
       },
       yaxis: {
+        tickfont: tickConfig,
+        title: {
+          text: 'bilhoẽs de usuários ativos',
+          font: {
+            color: getCSS('--secondary-color')
+          }
+        }
+       
+        }
       
       }
   }
        
-  }
 
   const grafico = document.createElement('div')
   grafico.className = 'grafico'
